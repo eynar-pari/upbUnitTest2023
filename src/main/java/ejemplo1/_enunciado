@@ -4,20 +4,20 @@ con una nota aprobatoria de 71 pts dependiendo los rangos devuelve un especifico
 datos entrada : nota   0 - 100
 
 0 - 70 --->    Esfuerzate mas tu nota es: NN
-71 - 80 --->   Bien, tu nota es: NN
-81 - 90 --->   Muy bien, tu nota es: NN
-91 - 100 --->  Excelente, tu nota es: NN
-   ***         La nota no es correcta, ingrese nuevamente el valor
+71 - 80 --->   Bien tu nota es: NN
+81 - 90 --->   Muy bien tu nota es: NN
+91 - 100 --->  Excelente tu nota es: NN
+   ***         La nota no es correcta ingrese nuevamente el valor
 ---------------------------------------------------------
 
 Nota: ---> TDD
 obtenerMensaje(int nota)
 
 --------------------------------------------------
-tecnicas de covertura
+tecnicas de covertura - boundary test
 
-0 - 70       -1 0 1     29 30 31    69 70 71               --->   Esfuerzate mas tu nota es: NN
+0 - 70       -1 0 1     29 30 31    69 70 71               --->  Esfuerzate mas tu nota es: NN
 71 - 80       70 71 72  74  75 76   79 80 81               --->  Bien, tu nota es: NN
 81 - 90       80 81 82  84  85 86   89 90 91               --->  Muy bien, tu nota es: NN
-91 - 100      90 91 92   95 96 97   99 100 101              --->  Excelente, tu nota es: NN
+91 - 100      90 91 92   95 96 97   99 100 101             --->  Excelente, tu nota es: NN
    ***                         --->  La nota no es correcta, ingrese nuevamente el valor
