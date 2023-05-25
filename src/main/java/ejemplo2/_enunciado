@@ -1,0 +1,19 @@
+Se tiene un Banco que va realizando operaciones, tales como prestamos, creditos, depositos, etc
+
+- cuando una persona desea saber cuanto es su monto maximo a prestarse la aplicacion del banco
+realiza una llamada al servicio de la ASFI pidiendo su historial crediticio y saber
+a que categoria pertence
+
+categoria
+A---> 200000
+B---> 100000
+C---> 0
+
+Al Desarrollador A le toco implentar el medodo getMaximoPrestamo(ci) este metodo usa otro metodo
+que realiza la obtencion del servicio de la ASFI para obtener la Categoria
+
+deseamos generar las pruebas para :getMaximoPrestamo(ci)
+
+ 454566 ---> A ---> maximo a prestar 200000
+ 999999  ---> B ---> maximo a prestar 100000
+  77777  ---> C ---> no se puede prestar ningun monto ALERTA!

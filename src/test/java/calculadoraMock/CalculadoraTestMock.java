@@ -25,6 +25,7 @@ public class CalculadoraTestMock {
         Mockito.when(serviceMock.multi(2,3)).thenReturn(6);
         Mockito.when(serviceMock.multi(6,4)).thenReturn(24);
         Mockito.when(serviceMock.multi(24,5)).thenReturn(120);
+
         /** PASO 4
          * Utilizar el obejto FALSO -> MOCK
          * necesitamos tener el PASO 1
@@ -47,6 +48,8 @@ public class CalculadoraTestMock {
         Mockito.verify(serviceMock).multi(2,3);
         Mockito.verify(serviceMock).multi(6,4);
        // Mockito.verify(serviceMock).multi(24,5);
+
+
 
     }
 }
